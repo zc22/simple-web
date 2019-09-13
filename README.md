@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a portfolio of Zoe.
+
 
 Things you may want to cover:
 
@@ -23,6 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-=======
-# simple-web
->>>>>>> 7132eb99626192c10fbdb7b95ac21c4c7a8f890c
