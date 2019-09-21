@@ -1,8 +1,13 @@
 <% provide(:title, "Home") %>
+<div class="center jumbotron">
 
     <h1>Project in Developement</h1>
-		<p>
+		<h2>
 			This is the home page for the
 			<a href ="https://zoe-cui.herokuapp.com/"> Zoe's Portfolio</a>
 			sample application
-		</p>
+		</h2>
+		<%= link_to "Meet my dog Wawa!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+		
+<%= link_to image_tag("wawa-left.jpeg", alt: "aww he is too cute"), 'https://www.google.com/search?q=chihuahua&ie=&oe=' %>
