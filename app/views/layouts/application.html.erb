@@ -8,6 +8,7 @@
   </head>
 
   <body>
+  
         <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <%= link_to "Zoe's Portfolio", '#', id: "logo" %>
@@ -20,8 +21,16 @@
         </nav>
       </div>
     </header>
+    
     <div class="container">
       <%= yield %>
     </div>
+    
+    <div class="container">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+      <%= debug(params) if Rails.env.development? %>
+    </div>
+    
   </body>
 </html>
