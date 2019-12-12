@@ -1,12 +1,13 @@
 <div class="center jumbotron">
 
-    <h1>Project in Developement</h1>
-		<h2>
-			This is the home page for the
-			<a href ="https://zoe-cui.herokuapp.com/"> Zoe's Portfolio</a>
-			sample application
-		</h2>
-		<%= link_to "Sign up to connect with me and my dog Wawa!", signup_path,  class: "btn btn-lg btn-primary" %>
+    <h1>Hello, this is Zoe Cui</h1>
+		<p>
+			To learn about who I am, follow <a href ="https://zoe-cui.herokuapp.com/static_pages/about_me"> this link</a>.
+			<br>To take a look at my resume, follow <a href ="https://zoe-cui.herokuapp.com/static_pages/resume"> this link</a>.
+			<br>To leave a comment for me, click  <%= link_to "here", signup_path %>.
+			<br>Meet my dog Wawa, he says hi to you from Beijing!
+			<br>He loves you too.
+		</p>
 </div>
 		
 <%= link_to image_tag("wawa-left.jpg", alt: "aww he is too cute"), 'https://www.google.com/search?q=chihuahua&ie=&oe=' %>

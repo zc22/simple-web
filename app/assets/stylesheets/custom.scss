@@ -30,7 +30,8 @@ textarea {
 
 /* typography */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Palatino, URW;
   line-height: 1;
 }
 
@@ -51,14 +52,15 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-size: 0.9em;
+  line-height: 1.4em;
 }
 
 
 /* header */
 
 #logo {
+font-family: Palatino, URW;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -70,6 +72,7 @@ p {
 }
 
 #logo:hover {
+font-family: Palatino, URW;
   color: #fff;
   text-decoration: none;
 }
@@ -78,6 +81,7 @@ p {
 /* footer */
 
 footer {
+font-family: Palatino, URW;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
@@ -109,6 +113,7 @@ footer ul li {
 /* Users index */
 
 .users {
+  font-family: Palatino, URW;
   list-style: none;
   margin: 0;
   li {
@@ -121,6 +126,7 @@ footer ul li {
 /* forms */
 
 input, textarea, select, .uneditable-input {
+  font-family: Palatino, URW;
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
@@ -128,8 +134,10 @@ input, textarea, select, .uneditable-input {
 }
 
 input {
+  font-family: Palatino, URW;
   height: auto !important;
 }
+
 #error_explanation {
   color: red;
   ul {
@@ -139,6 +147,7 @@ input {
 }
 
 .field_with_errors {
+  font-family: Palatino, URW;
   @extend .has-error;
   .form-control {
     color: $state-danger-text;

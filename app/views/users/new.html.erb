@@ -1,19 +1,19 @@
 <% provide(:title, 'Sign up') %>
 
-<h1>Connect with me?</h1>
+<h1>Say something?</h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(@user) do |f| %>
       <%= render partial: 'shared/error_messages', object: f.object %>
 
-      <%= f.label :name %>
-      <%= f.text_field :name, class: 'form-control' %>
+      <%= f.label :nickname %>
+      <%= f.text_field :nickname, class: 'form-control' %>
 
-      <%= f.label :email %>
-      <%= f.email_field :email, class: 'form-control' %>
+      <%= f.label :comment %>
+      <%= f.text_field :comment, class: 'form-control' %>
 
-      <%= f.submit "Connect!", class: "btn btn-primary" %>
+      <%= f.submit "Done!", class: "btn btn-primary" %>
     <% end %>
   </div>
 </div>
