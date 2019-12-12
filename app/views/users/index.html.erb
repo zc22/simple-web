@@ -5,7 +5,8 @@
 <ul class="users">
   <% @user.each do |user| %>
     <li>
-      <%= link_to user.nickname, user %>
+      <%=      user.nickname %>:
+       <%=     user.comment %>
     </li>
   <% end %>
 </ul>
