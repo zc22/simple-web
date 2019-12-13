@@ -19,4 +19,6 @@ ActiveRecord::Schema.define(version: 20191017015543) do
     t.datetime "updated_at", null: false
   end
 
+   add_index "users", :nickname, :comment
+
 end
