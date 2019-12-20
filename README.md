@@ -1,24 +1,5 @@
 # README
 
-This is a portfolio of Zoe.
+This is a portfolio of Zoe, deployed with the url https://zoe-cui.herokuapp.com/.
 
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This web app was built from scratch using ruby on rails. I am able to use css and html to structure the website, use a database and form to request and store data and use tests to ensure the correctness of the application. Moreover, the functionalities of the site is tailored to my user group who are the viewers of my portfolio.
